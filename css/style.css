@@ -43,6 +43,7 @@ a,a:hover{
 /* banner section style start */
 .bannerPart{
     height: 847px;
+    background: #F9F9FC;
 }
 .bannerText h4{
     color: #5E3BEE;
@@ -75,8 +76,23 @@ a,a:hover{
 }
 /* banner section style end */
 
-/* header section style start */
-/* header section style end */
+/* counter section style start */
+#counterPart{
+    padding: 102px 0;
+}
+.counterOne h3{
+   font-size: 48px;
+   font-weight: 600;
+   line-height: 56px
+}
+.counterOne h5{
+   color: rgba(18, 18, 18, 0.7);
+   font-weight: 500;
+   line-height: 24px;
+}
+/* counter section style end */
+
+
 /* header section style start */
 /* header section style end */
 /* header section style start */
