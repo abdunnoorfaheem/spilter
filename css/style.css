@@ -1,100 +1,150 @@
 /* google fonts start  */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* google fonts end */
 /* common css style start */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: 0;
-    font-family: "Poppins", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-ul,ol{
-    list-style-type: none;
+ul,
+ol {
+  list-style-type: none;
 }
 
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
-    padding: 0;
-    line-height: 0.8;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
 }
-a,a:hover{
-    text-decoration: none;
-    display: inline-block;
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
 }
 /* common css style end */
 
 /* header section style start */
-#headerPart{
-    padding: 30px 0;
+#headerPart {
+  padding: 30px 0;
 }
-.btnhire{
-    color: #fff;
-    background: #5E3BEE;
-    border: none;
-    padding: 11px 22px;
-    border-radius: 50px;
+.btnhire {
+  color: #fff;
+  background: #5e3bee;
+  border: none;
+  padding: 11px 22px;
+  border-radius: 50px;
 }
-
 
 /* header section style end */
 
 /* banner section style start */
-.bannerPart{
-    height: 847px;
-    background: #F9F9FC;
+.bannerPart {
+  height: 847px;
+  background: #f9f9fc;
 }
-.bannerText h4{
-    color: #5E3BEE;
+.bannerText h4 {
+  color: #5e3bee;
 }
-.bannerText h1{
-    width: 479px;
-    font-size: 60px;
-    font-weight: 700;
-    line-height: 78px;
-    color: #333333;
-    padding: 32px 0;
+.bannerText h1 {
+  width: 479px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #333333;
+  padding: 32px 0;
 }
-.bannerBtn a{
-    padding: 23px 38px;
-    background: #5E3BEE;
-    color: #fff;
-    border-radius: 50px;
-    transition: .5s;
+.bannerBtn a {
+  padding: 23px 38px;
+  background: #5e3bee;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.5s;
 }
-.bannerBtn a:hover{
-    
-    background: #fff;
-    color: #000;
-    
+.bannerBtn a:hover {
+  background: #fff;
+  color: #000;
 }
-.bannerBtn .bannerBtnLeft{
-    
+.bannerBtn .bannerBtnLeft {
   margin-right: 25px;
-    
 }
 /* banner section style end */
 
 /* counter section style start */
-#counterPart{
-    padding: 102px 0;
+#counterPart {
+  padding: 102px 0;
 }
-.counterOne h3{
-   font-size: 48px;
-   font-weight: 600;
-   line-height: 56px
+.counterOne h3 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
 }
-.counterOne h5{
-   color: rgba(18, 18, 18, 0.7);
-   font-weight: 500;
-   line-height: 24px;
+.counterOne h5 {
+  color: rgba(18, 18, 18, 0.7);
+  font-weight: 500;
+  line-height: 24px;
 }
 /* counter section style end */
 
+/* service section style start */
+#servicePart {
+  text-align: center;
+}
+.serviceText h4 {
+  color: #5e3bee;
+  font-weight: 500;
+  line-height: 26px;
+}
+.serviceText h3 {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 12px 0;
+}
+.serviceText p {
+    color: rgba(18, 18, 18, 0.7);
+    Width: 600px;
+    width:600px ;
+    margin: 0 auto;
 
-/* header section style start */
-/* header section style end */
+}
+.cardOne{
+    padding: 50px 35px;
+    /* box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.2); */
+    border-radius: 24px;
+    text-align: center;
+    margin: 50px 0;
+    transition: .5s;
+}
+.cardOne:hover{
+    
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.2);
+    
+}
+.cardOne h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    padding-bottom: 9px;
+}
+.cardOne p{
+    font-weight: 400;
+    line-height: 32px;
+    width: 307px;
+    margin: 0 auto;
+    color: rgba(18, 18, 18, 0.7);
+}
+/* service section style end */
+
 /* header section style start */
 /* header section style end */
 /* header section style start */
