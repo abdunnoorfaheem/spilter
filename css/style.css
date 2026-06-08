@@ -145,9 +145,29 @@ a:hover {
 }
 /* service section style end */
 
+/* banner section style start */
+.contactText h4{
+  color: #5E3BEE;
+}
+.contactText h2{
+  padding-top: 22px;
+  padding-bottom: 15px;
+  font-size: 60px;
+  color: #333333;
+  line-height: 78px;
+  font-weight: bold;
+  width: 482px;
+}
+.contactText p{
+  color: #333333;
+  width: 582px;
+  line-height: 32px;
+  padding-bottom: 30px;
+}
+/* banner section style end */
+
 /* header section style start */
-/* header section style end */
-/* header section style start */
+
 /* header section style end */
 /* header section style start */
 /* header section style end */
